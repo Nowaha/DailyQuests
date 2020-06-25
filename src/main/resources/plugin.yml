@@ -1,0 +1,19 @@
+name: DailyQuests
+version: 1.13.2-1.1
+main: me.nowaha.dailyquests.DailyQuests
+api-version: 1.13
+authors: [Nowaha]
+website: www.noahverkaik.com
+depend:
+  - Vault
+  - Points
+  - TribeShop
+commands:
+  rerolls:
+  dailyquests:
+    aliases:
+      - daily
+      - dailyquest
+      - dq
+      - quest
+      - quests

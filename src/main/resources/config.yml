@@ -1,0 +1,246 @@
+quests:
+  noob:
+    name: '&f&lNoob Quest'
+    color: WHITE
+    quests: 1
+    chance: 50
+    rewardPool:
+      '1':
+        rewardType: ITEM
+        rewardData: 5xDIAMOND
+      '2':
+        rewardType: CASH
+        rewardData: 5000
+      '3':
+        rewardType: POINTS
+        rewardData: 0.25
+      '4':
+        rewardType: COMMAND
+        rewardData:
+          command: say oof
+          text: "&c+1 oof!"
+    questPool:
+      '1':
+        questType: BREAK_BLOCKS # Break x amount of block. (150x stone)
+        questData: 150xSTONE
+        description: Break 200x Stone.
+      '2':
+        questType: SELL_ITEMS # Selling x amount of item. (200x stone)
+        questData: 200xSTONE
+        description: Sell 200x Stone.
+      '3':
+        questType: SMELT_ITEMS # Smelting x amount into item (250x steak)
+        questData: 250xCOOKED_BEEF
+        description: Smelt 250 raw beef into steak.
+      '4':
+        questType: SELL_ITEMS_MONEY # Sell x$ of item. (2000$ of stone)
+        questData: 2000xSTONE
+        description: Sell 2,000$ in stone.
+      '5':
+        questType: KILL_ENTITY # Kill x amount of a certain mob type. (50x zombie)
+        questData: 50xZOMBIE
+        description: Kill 50 zombies.
+  hero:
+    name: '&e&lHero Quest'
+    color: YELLOW
+    quests: 2
+    chance: 30
+    rewardPool:
+      '1':
+        rewardType: ITEM
+        rewardData: 10xDIAMOND
+      '2':
+        rewardType: CASH
+        rewardData: 7500
+      '3':
+        rewardType: POINTS
+        rewardData: 0.5
+    questPool:
+      '1':
+        questType: SELL_ITEMS
+        questData: 400xSTONE
+        description: Sell 400x Stone.
+      '2':
+        questType: SMELT_ITEMS
+        questData: 400xCOOKED_BEEF
+        description: Smelt 400 raw beef into steak.
+  elite:
+    name: '&a&lElite Quest'
+    color: LIME
+    quests: 3
+    chance: 25
+    rewardPool:
+      '1':
+        rewardType: ITEM
+        rewardData: 25xDIAMOND
+      '2':
+        rewardType: CASH
+        rewardData: 10000
+      '3':
+        rewardType: POINTS
+        rewardData: 0.75
+    questPool:
+      '1':
+        questType: BREAK_BLOCKS
+        questData: 600xSTONE
+        description: Break 600x Stone.
+      '2':
+        questType: BREAK_BLOCKS
+        questData: 300xMELON
+        description: Break 300x Melon.
+      '3':
+        questType: BREAK_BLOCKS
+        questData: 300xPUMPKIN
+        description: Break 300x Pumpkin.
+  titan:
+    name: '&b&lTitan Quest'
+    color: CYAN
+    quests: 4
+    chance: 20
+    rewardPool:
+      '1':
+        rewardType: ITEM
+        rewardData: 35xDIAMOND
+      '2':
+        rewardType: CASH
+        rewardData: 12500
+      '3':
+        rewardType: POINTS
+        rewardData: 1
+    questPool:
+      '1':
+        questType: BREAK_BLOCKS
+        questData: 50xSTONE
+        description: Break 50x Stone.
+      '2':
+        questType: BREAK_BLOCKS
+        questData: 350xMELON
+        description: Break 350x Melon.
+      '3':
+        questType: BREAK_BLOCKS
+        questData: 350xPUMPKIN
+        description: Break 350x Pumpkin.
+      '4':
+        questType: SELL_ITEMS
+        questData: 50xGRASS_BLOCK
+        description: Sell 50x Grass Block.
+  legend:
+    name: '&d&lLegend Quest'
+    color: PINK
+    quests: 5
+    chance: 15
+    rewardPool:
+      '1':
+        rewardType: ITEM
+        rewardData: 40xDIAMOND
+      '2':
+        rewardType: CASH
+        rewardData: 15000
+      '3':
+        rewardType: POINTS
+        rewardData: 1.25
+    questPool:
+      '1':
+        questType: BREAK_BLOCKS
+        questData: 750xSTONE
+        description: Break 750x Stone.
+      '2':
+        questType: BREAK_BLOCKS
+        questData: 400xMELON
+        description: Break 400x Melon.
+      '3':
+        questType: BREAK_BLOCKS
+        questData: 400xPUMPKIN
+        description: Break 400x Pumpkin.
+      '4':
+        questType: SELL_ITEMS
+        questData: 75xGRASS_BLOCK
+        description: Sell 75x Grass Block.
+      '5':
+        questType: SELL_ITEMS
+        questData: 100xDIRT
+        description: Sell 100x Dirt.
+  ultimate:
+    name: '&c&lUltimate Quest'
+    color: RED
+    quests: 6
+    chance: 10
+    rewardPool:
+      '1':
+        rewardType: ITEM
+        rewardData: 45xDIAMOND
+      '2':
+        rewardType: CASH
+        rewardData: 17500
+      '3':
+        rewardType: POINTS
+        rewardData: 1.5
+    questPool:
+      '1':
+        questType: BREAK_BLOCKS
+        questData: 850xSTONE
+        description: Break 850x Stone.
+      '2':
+        questType: BREAK_BLOCKS
+        questData: 450xMELON
+        description: Break 450x Melon.
+      '3':
+        questType: BREAK_BLOCKS
+        questData: 450xPUMPKIN
+        description: Break 450x Pumpkin.
+      '4':
+        questType: SELL_ITEMS
+        questData: 100xGRASS_BLOCK
+        description: Sell 100x Grass Block.
+      '5':
+        questType: SELL_ITEMS
+        questData: 125xDIRT
+        description: Sell 125x Dirt.
+      '6':
+        questType: SELL_ITEMS
+        questData: 10xDIAMOND
+        description: Sell 10x Diamond.
+  optimum:
+    name: '&6&l&k| &6&lOptimum Quest &6&l&k|'
+    color: ORANGE
+    quests: 7
+    chance: 5
+    rewardPool:
+      '1':
+        rewardType: ITEM
+        rewardData: 75xDIAMOND
+      '2':
+        rewardType: CASH
+        rewardData: 20000
+      '3':
+        rewardType: POINTS
+        rewardData: 2
+    questPool:
+      '1':
+        questType: BREAK_BLOCKS
+        questData: 1000xSTONE
+        description: Break 1000x Stone.
+      '2':
+        questType: BREAK_BLOCKS
+        questData: 500xMELON
+        description: Break 500x Melon.
+      '3':
+        questType: BREAK_BLOCKS
+        questData: 450xPUMPKIN
+        description: Break 450x Pumpkin.
+      '4':
+        questType: SELL_ITEMS
+        questData: 100xGRASS_BLOCK
+        description: Sell 100x Grass Block.
+      '5':
+        questType: SELL_ITEMS
+        questData: 125xDIRT
+        description: Sell 125x Dirt.
+      '6':
+        questType: SELL_ITEMS
+        questData: 10xDIAMOND
+        description: Sell 10x Diamond.
+      '7':
+        questType: SELL_ITEMS
+        questData: 25xDIAMOND
+        description: Sell 25x Diamond.
